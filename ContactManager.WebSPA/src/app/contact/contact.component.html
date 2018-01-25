@@ -1,0 +1,36 @@
+
+<div class="container">
+    <button (click)="addCostumer()">
+            [ ADD COSTUMER ]
+    </button>
+    <button (click)="addSupplier()">
+            [ ADD SUPPLIER ]
+    </button>
+    
+</div>
+
+<div class="container">
+    <div *ngIf="contactList?.data.length > 0">
+        <test-pager [model]="paginationInfo" (changed)="onPageChanged($event)"></test-pager>
+
+        <div>
+            <ul class="test-contact-items row">
+                <li class="test-contact-item">
+                        <div class="test-contact-name col-md-4">Name </div>
+                        <div class="test-contact-name col-md-4">Contact</div>
+                        <div class="test-contact-name col-md-4"></div> 
+                </li>
+                <li class="test-contact-item" *ngFor="let item of contactList?.data">
+                    <div class="test-contact-name col-md-4">{{item.firstName}} {{item.lastName}}</div>
+                    <div class="test-contact-name col-md-4">{{item.email}}{{item.telephone}}</div>
+                    <div class="test-contact-name col-md-4" *ngIf="item.contactType == 0"><a (click)="editSupplier(item)">[edit]</a>  |  <a (click)="removeContact(item)">[REMOVE]</a></div> 
+                    <div class="test-contact-name col-md-4" *ngIf="item.contactType == 1"><a (click)="editCostumer(item)">[edit]</a>  |  <a (click)="removeContact(item)">[REMOVE]</a></div> 
+                </li>
+            </ul>
+        </div>
+        <test-pager [model]="paginationInfo" (changed)="onPageChanged($event)"></test-pager>
+    </div>
+    <div *ngIf="contactList?.data.length == 0">
+        <span>THERE ARE NO RESULTS THAT MATCH YOUR SEARCH</span>
+    </div>
+</div>

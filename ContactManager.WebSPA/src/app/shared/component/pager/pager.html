@@ -1,0 +1,23 @@
+<div class="test-pager">
+    <div class="container">
+        <article class="test-pager-wrapper row">
+            <nav>
+                <span class="test-pager-item test-page-item--navigable"
+                id="Previous"
+                [ngClass]="{'is-disabled': buttonStates?.previousDisabled}"
+                (click)="onPreviousCliked($event)"
+                aria-label="Previous">Previous</span>
+                
+                <span class="test-pager-item">
+                    Showing {{model?.items}} of {{model?.totalItems}} contact - Page {{model?.actualPage + 1}} - {{model?.totalPages}}
+                </span>
+
+                <span class="test-pager-item teste-page-item--navigable"
+                id="Next"
+                [ngClass]="{'is-disabled': buttonStates?.nextDisabled}"
+                (click)="onNextClicked($event)"
+                aria-label="Next">Next</span>
+            </nav>
+        </article>
+    </div>
+</div>

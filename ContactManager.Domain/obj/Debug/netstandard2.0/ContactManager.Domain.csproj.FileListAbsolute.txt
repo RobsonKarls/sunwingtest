@@ -1,0 +1,8 @@
+/Users/robisonkarlscustodio/RiderProjects/ContactManager/ContactManager.Domain/bin/Debug/netstandard2.0/ContactManager.Domain.deps.json
+/Users/robisonkarlscustodio/RiderProjects/ContactManager/ContactManager.Domain/bin/Debug/netstandard2.0/ContactManager.Domain.dll
+/Users/robisonkarlscustodio/RiderProjects/ContactManager/ContactManager.Domain/bin/Debug/netstandard2.0/ContactManager.Domain.pdb
+/Users/robisonkarlscustodio/RiderProjects/ContactManager/ContactManager.Domain/obj/Debug/netstandard2.0/ContactManager.Domain.csproj.CoreCompileInputs.cache
+/Users/robisonkarlscustodio/RiderProjects/ContactManager/ContactManager.Domain/obj/Debug/netstandard2.0/ContactManager.Domain.AssemblyInfoInputs.cache
+/Users/robisonkarlscustodio/RiderProjects/ContactManager/ContactManager.Domain/obj/Debug/netstandard2.0/ContactManager.Domain.AssemblyInfo.cs
+/Users/robisonkarlscustodio/RiderProjects/ContactManager/ContactManager.Domain/obj/Debug/netstandard2.0/ContactManager.Domain.dll
+/Users/robisonkarlscustodio/RiderProjects/ContactManager/ContactManager.Domain/obj/Debug/netstandard2.0/ContactManager.Domain.pdb

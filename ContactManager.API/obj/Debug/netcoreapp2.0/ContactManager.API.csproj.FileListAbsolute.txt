@@ -1,0 +1,12 @@
+/Users/robisonkarlscustodio/RiderProjects/ContactManager/ContactManager.API/bin/Debug/netcoreapp2.0/ContactManager.API.deps.json
+/Users/robisonkarlscustodio/RiderProjects/ContactManager/ContactManager.API/bin/Debug/netcoreapp2.0/ContactManager.API.runtimeconfig.json
+/Users/robisonkarlscustodio/RiderProjects/ContactManager/ContactManager.API/bin/Debug/netcoreapp2.0/ContactManager.API.runtimeconfig.dev.json
+/Users/robisonkarlscustodio/RiderProjects/ContactManager/ContactManager.API/bin/Debug/netcoreapp2.0/ContactManager.API.dll
+/Users/robisonkarlscustodio/RiderProjects/ContactManager/ContactManager.API/bin/Debug/netcoreapp2.0/ContactManager.API.pdb
+/Users/robisonkarlscustodio/RiderProjects/ContactManager/ContactManager.API/bin/Debug/netcoreapp2.0/ContactManager.Domain.dll
+/Users/robisonkarlscustodio/RiderProjects/ContactManager/ContactManager.API/bin/Debug/netcoreapp2.0/ContactManager.Domain.pdb
+/Users/robisonkarlscustodio/RiderProjects/ContactManager/ContactManager.API/obj/Debug/netcoreapp2.0/ContactManager.API.csproj.CoreCompileInputs.cache
+/Users/robisonkarlscustodio/RiderProjects/ContactManager/ContactManager.API/obj/Debug/netcoreapp2.0/ContactManager.API.AssemblyInfoInputs.cache
+/Users/robisonkarlscustodio/RiderProjects/ContactManager/ContactManager.API/obj/Debug/netcoreapp2.0/ContactManager.API.AssemblyInfo.cs
+/Users/robisonkarlscustodio/RiderProjects/ContactManager/ContactManager.API/obj/Debug/netcoreapp2.0/ContactManager.API.dll
+/Users/robisonkarlscustodio/RiderProjects/ContactManager/ContactManager.API/obj/Debug/netcoreapp2.0/ContactManager.API.pdb

@@ -1,0 +1,27 @@
+<div class="modal-dialog">
+<div class="modal-content">
+    <div class="modal-header">
+        <h4 class="modal-title">{{title || 'Prompt'}}</h4>
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="close()">
+    <span aria-hidden="true">&times;</span>
+    </button>
+    </div>
+    <form #myForm="ngForm">
+        <div class="modal-body">
+            
+                <label>First Name</label><input autofocus type="text" maxlength="50" class="form-control" [(ngModel)]="contact.firstName" name="firstname" ngModel required>
+
+                <label>Last Name</label><input  type="text" maxlength="50" class="form-control" [(ngModel)]="contact.lastName" name="lastname" ngModel required>
+            
+                <label>Email</label><input  class="form-control" [(ngModel)]="contact.email" email name="email" type="email" ngModel required>
+                
+                <label>Birth Date</label><input type="date" class="form-control" [(ngModel)]="contact.birthDate" name="birthdate" #birthDate="ngModel" ngModel>
+                
+        </div>
+        <div class="modal-footer">
+            <button type="submit" (click)="apply()" class="btn btn-success" [disabled]="!myForm.form.valid">Submit</button>
+            <button type="button" class="btn btn-default" (click)="close()" >Cancel</button>
+        </div>
+    </form>
+    </div>
+</div>

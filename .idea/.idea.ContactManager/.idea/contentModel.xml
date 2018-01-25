@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/Rider2017.3/resharper-host/local/Transient/ReSharperHost/v11/SolutionCaches/_ContactManager.1925384882.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="ContactManager.API" t="IncludeRecursive">
+        <e p="AppSettings.cs" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ContactManager.API.csproj" t="IncludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="ContactsController.cs" t="Include" />
+          <e p="CostumersController.cs" t="Include" />
+          <e p="HomeController.cs" t="Include" />
+          <e p="SuppliersController.cs" t="Include" />
+        </e>
+        <e p="Infrastructure" t="Include">
+          <e p="ContactManagerContext.cs" t="Include" />
+          <e p="EntityConfiguration" t="Include">
+            <e p="CostumerConfiguration.cs" t="Include" />
+            <e p="PersonEntityConfiguration.cs" t="Include" />
+            <e p="SupplierEntityConfiguration.cs" t="Include" />
+          </e>
+          <e p="Factory" t="Include">
+            <e p="ContactFactory.cs" t="Include" />
+          </e>
+          <e p="Queries" t="Include">
+            <e p="IContactQueries.cs" t="Include" />
+            <e p="Queries.cs" t="Include" />
+          </e>
+          <e p="Repositories" t="Include">
+            <e p="CostumerRepository.cs" t="Include" />
+            <e p="SupplierRepository.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="20180123030051_migrations.cs" t="Include" />
+          <e p="20180123030051_migrations.Designer.cs" t="Include" />
+          <e p="20180123030408_migrations add table for names.cs" t="Include" />
+          <e p="20180123030408_migrations add table for names.Designer.cs" t="Include" />
+          <e p="ContactManagerContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="ContactManager.API.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Startup.cs" t="Include" />
+        <e p="ViewModel" t="Include">
+          <e p="ContactViewModel.cs" t="Include" />
+          <e p="PaginatedContactViewModel.cs" t="Include" />
+        </e>
+      </e>
+      <e p="ContactManager.Domain" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ContactManager.Domain.csproj" t="IncludeRecursive" />
+        <e p="Model" t="Include">
+          <e p="Costumer.cs" t="Include" />
+          <e p="ICostumerRepository.cs" t="Include" />
+          <e p="ISupplierRepository.cs" t="Include" />
+          <e p="Name.cs" t="Include" />
+          <e p="Person.cs" t="Include" />
+          <e p="Supplier.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="ContactManager.Domain.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="SeedOfWork" t="Include">
+          <e p="IRepository.cs" t="Include" />
+          <e p="IUnitOfWork.cs" t="Include" />
+          <e p="ValueObject.cs" t="Include" />
+        </e>
+      </e>
+      <e p="ContactManager.sln" t="IncludeFlat" />
+      <e p="ContactManager.WebSPA" t="IncludeRecursive">
+        <e p=".angular-cli.json" t="Include" />
+        <e p=".editorconfig" t="Include" />
+        <e p=".gitignore" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ContactManager.WebSPA.csproj" t="IncludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="ValuesController.cs" t="Include" />
+        </e>
+        <e p="e2e" t="Include">
+          <e p="app.e2e-spec.ts" t="Include" />
+          <e p="app.po.ts" t="Include" />
+          <e p="tsconfig.e2e.json" t="Include" />
+        </e>
+        <e p="karma.conf.js" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="ContactManager.WebSPA.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="package-lock.json" t="Include" />
+        <e p="package.json" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="protractor.conf.js" t="Include" />
+        <e p="README.md" t="Include" />
+        <e p="src" t="Include">
+          <e p="app" t="Include">
+            <e p="app.component.html" t="Include" />
+            <e p="app.component.scss" t="Include" />
+            <e p="app.component.spec.ts" t="Include" />
+            <e p="app.component.ts" t="Include" />
+            <e p="app.module.ts" t="Include" />
+            <e p="app.routes.ts" t="Include" />
+            <e p="app.service.ts" t="Include" />
+            <e p="contact" t="Include">
+              <e p="contact.component.html" t="Include" />
+              <e p="contact.component.scss" t="Include" />
+              <e p="contact.component.ts" t="Include" />
+              <e p="contact.module.ts" t="Include" />
+              <e p="contact.service.ts" t="Include" />
+            </e>
+            <e p="shared" t="Include">
+              <e p="component" t="Include">
+                <e p="contactForm" t="Include">
+                  <e p="contactForm.component.css" t="Include" />
+                  <e p="contactForm.component.ts" t="Include" />
+                  <e p="costumerForm.component.html" t="Include" />
+                  <e p="supplierForm.component.html" t="Include" />
+                </e>
+                <e p="pager" t="Include">
+                  <e p="pager.html" t="Include" />
+                  <e p="pager.scss" t="Include" />
+                  <e p="pager.ts" t="Include" />
+                </e>
+              </e>
+              <e p="Model" t="Include">
+                <e p="contact.model.ts" t="Include" />
+                <e p="contact.ts" t="Include" />
+                <e p="contactList.model.ts" t="Include" />
+                <e p="pager.model.ts" t="Include" />
+              </e>
+              <e p="services" t="Include">
+                <e p="data.service.ts" t="Include" />
+              </e>
+              <e p="shared.module.ts" t="Include" />
+            </e>
+            <e p="variables.scss" t="Include" />
+          </e>
+          <e p="assets" t="Include">
+            <e p=".gitkeep" t="Include" />
+          </e>
+          <e p="environments" t="Include">
+            <e p="environment.prod.ts" t="Include" />
+            <e p="environment.ts" t="Include" />
+          </e>
+          <e p="favicon.ico" t="Include" />
+          <e p="fonts" t="Include">
+            <e p="Montserrat-Bold.eot" t="Include" />
+            <e p="Montserrat-Bold.svg" t="Include" />
+            <e p="Montserrat-Bold.ttf" t="Include" />
+            <e p="Montserrat-Bold.woff" t="Include" />
+            <e p="Montserrat-Bold.woff2" t="Include" />
+            <e p="Montserrat-Regular.eot" t="Include" />
+            <e p="Montserrat-Regular.svg" t="Include" />
+            <e p="Montserrat-Regular.ttf" t="Include" />
+            <e p="Montserrat-Regular.woff" t="Include" />
+            <e p="Montserrat-Regular.woff2" t="Include" />
+          </e>
+          <e p="globals.scss" t="Include" />
+          <e p="index.html" t="Include" />
+          <e p="main.ts" t="Include" />
+          <e p="polyfills.ts" t="Include" />
+          <e p="styles.css" t="Include" />
+          <e p="test.ts" t="Include" />
+          <e p="tsconfig.app.json" t="Include" />
+          <e p="tsconfig.spec.json" t="Include" />
+          <e p="typings.d.ts" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="tsconfig.json" t="Include" />
+        <e p="tslint.json" t="Include" />
+        <e p="wwwroot" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
